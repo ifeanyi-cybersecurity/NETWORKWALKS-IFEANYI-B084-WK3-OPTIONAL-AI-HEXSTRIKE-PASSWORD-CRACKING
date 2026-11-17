@@ -43,12 +43,12 @@ hash and run John the Ripper against it with `rockyou.txt`.
 `john --format=PDF --wordlist=/tmp/rockyou.txt /tmp/pdf_hash.txt`. John the
 Ripper cracked the password: **`password1`**
 
-![AI-driven crack result](screenshots/AI-file-cracked.png)
+![AI-driven crack result](screenshots/Cracked.png)
 
 **6. Opened the PDF** on the Kali Desktop with the recovered password to
 confirm it unlocked — "Congratulations! You have captured another flag."
 
-![PDF unlocked with the cracked password](screenshots/Cracked.png)
+![PDF unlocked with the cracked password](screenshots/AI-file-cracked.png)
 
 ## Demo video
 
