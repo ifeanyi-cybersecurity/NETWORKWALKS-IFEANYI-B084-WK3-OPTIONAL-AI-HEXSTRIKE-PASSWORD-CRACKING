@@ -4,6 +4,25 @@
 **Intern:** Nnani Ifeanyi
 **Week 3 — Optional Module: AI-Assisted Password Cracking**
 
+## Scope & Ethical Use
+
+This repository documents a **training lab** completed as part of the Networkwalks Cybersecurity Internship (Week 3, optional module). It is for educational purposes only.
+
+**What this lab covers**
+- Using John the Ripper through the HexStrike-AI MCP server, driven by Claude Desktop, on Kali Linux
+- Observing how AI-assisted tooling can orchestrate a password-cracking workflow end to end
+
+**Lab boundaries**
+- All work was performed in an isolated Kali Linux VM.
+- The target file (`hash3.networkwalks_flag1.pdf`) and wordlist were training materials **provided by Networkwalks** specifically for this exercise — no real-world systems, accounts, or third-party data were involved.
+- No credentials or hashes from live/production systems are included anywhere in this repo.
+
+**Not an MCP server**
+This repo is a write-up of a lab exercise. It does not contain or publish an MCP server of its own. HexStrike-AI and John the Ripper are third-party tools, credited to their respective authors/maintainers.
+
+**Responsible use**
+Password cracking or auditing must only be performed on systems and data you own or have explicit written permission to test. Do not use anything described here against systems without authorization. Unauthorized access is illegal in most jurisdictions, including under Nigeria's Cybercrimes Act.
+
 ## Task
 
 Crack the password of `hash3.networkwalks_flag1.pdf` using John the Ripper,
